@@ -1,0 +1,6 @@
+package eyesaver.com.eyesaver
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:eyesaver/startup_pages/page1.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,24 +16,10 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(),
-        body: SafeArea(
-          child: Column(
-            children: [
-              ListTile(
-                title: Text(
-                  'Start',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 20.0,
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
+      home: Page1(),
     );
   }
 }
+/*
+
+*/

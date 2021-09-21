@@ -1,9 +1,8 @@
-import 'package:eyesaver/startup_pages/home.dart';
+import 'package:eyesaver/pages/page3.dart';
 import 'package:flutter/material.dart';
 
-
-class Page3 extends StatelessWidget {
-  const Page3({Key? key}) : super(key: key);
+class Page2 extends StatelessWidget {
+  const Page2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +14,7 @@ class Page3 extends StatelessWidget {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => Home(),
+              builder: (context) => Page3(),
             ),
           );
         },
@@ -23,7 +22,7 @@ class Page3 extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('images/3.png'), fit: BoxFit.cover),
+              image: AssetImage('images/2.png'), fit: BoxFit.cover),
         ),
       ),
     );

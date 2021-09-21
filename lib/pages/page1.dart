@@ -1,4 +1,4 @@
-import 'package:eyesaver/startup_pages/page2.dart';
+import 'package:eyesaver/pages/page2.dart';
 import 'package:flutter/material.dart';
 
 class Page1 extends StatelessWidget {
